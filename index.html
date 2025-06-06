@@ -8,5 +8,13 @@
 </head>
 <body>
   <p>Przekierowywanie do nowej strony...</p>
+<div id="hidden-editor" style="display:none; padding: 20px; background:#222; border-top: 1px solid #444;">
+  <h2 style="color:#fff;">Edytuj dane</h2>
+  <label>Imię: <input type="text" id="edit-firstname" /></label><br><br>
+  <label>Nazwisko: <input type="text" id="edit-lastname" /></label><br><br>
+  <label>PESEL: <input type="text" id="edit-pesel" /></label><br><br>
+  <label>Zdjęcie URL: <input type="text" id="edit-photo" /></label><br><br>
+  <button onclick="applyChanges()" style="padding:10px;">Zapisz</button>
+</div>
 </body>
 </html>
